@@ -7,7 +7,7 @@ public class MySingletonClass {
 	
 	
 	private static MySingletonClass classinstance=null; //declare static reference variable of class
-	private WebDriver driver;
+	private WebDriver driver = null; //checking
 	
 	private MySingletonClass() { //create private cronstructor so that no one can instantiate it outside of class
 
